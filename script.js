@@ -4,10 +4,8 @@ var student={
 age: "20",
 	city: "rajam"
 }
-function getKeys(){
-	return Object.keys(student);
-}
 
-let keys=student.getKeys();
+
+let keys=Object.keys(student);
 console.log(keys);
 
