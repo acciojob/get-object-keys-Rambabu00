@@ -1,9 +1,9 @@
 //your JS code here. If required.
 var student={
 	name: "ram",
-prototype: "object"
+getKeys(){
+	console.log(Object.keys(student));
+},
 }
-function getkeys (){
-	return Object.keys(student);
-}
-getkeys();
+student.getKeys();
+
