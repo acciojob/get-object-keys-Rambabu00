@@ -1,9 +1,9 @@
 //your JS code here. If required.
 var student={
 	name: "ram",
-getKeys(){
-	console.log(Object.keys(student));
-},
+age: "20",
+	city: "rajam"
 }
-student.getKeys();
+let keys=student.getKeys();
+console.log(keys);
 
