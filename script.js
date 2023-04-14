@@ -1,11 +1,8 @@
-//your JS code here. If required.
-var student={
-	name: "ram",
-age: "20",
-	city: "rajam"
+//your JS code h
+let student = {
+	name : "Ajay"
 }
-
-
-let keys=Object.keys(student);
-console.log(keys);
+Object.prototype.getKeys = function () { 
+	return Object.keys(this);
+}
 
